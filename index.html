@@ -2,23 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Welcome to the community" />
+    <meta
+      property="og:image"
+      content="https://media.discordapp.net/attachments/987490675224354896/1007418369189879858/unknown.png?width=810&height=855"
+    />
+    <meta property="og:title" content="Welcome to BOZO Chat" />
     <meta
       property="og:description"
       content="Maximize your profits, minimize your risks and join the winning team!"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="src/css/style.css" />
-    <script type="module" defer src="src/js/control.js"></script>
-    <title>Welcome</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script type="module" defer src="./src/js/control.js"></script>
+    <!-- <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico" /> -->
+    <title>Bozo Chat</title>
   </head>
   <body>
-    <main style = "width: 100%">
+    <div class="loader">
+      <div class="loader--inner">
+        <img src="./src/img/logo.png" alt="lovely" />
+        <div class="loader--outer"></div>
+      </div>
+      <p>Sports Empire</p>
+    </div>
+    <main>
       <div class="navbar">
         <div class="menu-toggle" id="mobile-menu">
           <span class="bar"></span>
@@ -27,47 +35,76 @@
         </div>
         <ul>
           <a class="logo" href="/">
-            <img src="./src/img/logo.png" alt="bozochat" />
+            <img src="./src/img/logo.png" alt="sport" />
           </a>
           <li>
             <a href="#service">services</a>
             <a href="#partner">reviews</a>
             <a href="#faq">faq</a>
             <!-- <a target="_blank" href="https://neongroup.hyper.co/">log in</a> -->
-            <button class="main-button">
-              <span class="text-truncate">Join</span>
+            <button class="dropdown-button main-button">
+              <span class="dropdown-title text-truncate">Join Us</span>
             </button>
           </li>
         </ul>
       </div>
-      <section class="intro-landing">
-        <div class="landing-pic">
-          <div class="center">
-            <h1>  
-              <span class="word-wrapper">
-                <b class="visible">
-                  <i>M</i><i>i</i><i>n</i><i>i</i><i>m</i><i>i</i><i>z</i><i>e</i><i> </i><i>R</i><i>i</i><i>s</i><i>k</i>
-                </b>
-                <b>
-                  <i>M</i><i>a</i><i>x</i><i>i</i><i>m</i><i>i</i><i>z</i><i>e</i><i> </i><i>P</i><i>r</i><i>o</i><i>f</i><i>i</i><i>t</i>
-                </b>
-                <b>
-                  <i>S</i><i>T</i><i>A</i><i>R</i><i>T</i><i> </i><i>U</i><i>R</i><i> </i><i>J</i><i>O</i><i>U</i><i>R</i><i>N</i><i>E</i><i>Y</i>
-                </b>
-              </span>
-              <br>
-              <span>Join</span> 
-              <div class="shiny-container">
-                <h2>SPORTS EMPIRE</h2>
-                <div class="mask"><div><div><h2>SPORTS EMPIRE</h2></div></div></div>
-              </div>
-            </h1>
-          </div> 
+      <div class="intro-section section" id="intro">
+        <div class="intro-text">
+          <div class="upper">
+            <div style="transform: translateY(0%)">
+              <p>join</p>
+              <p>minimize</p>
+              <p>maximize</p>
+            </div>
+          </div>
+          <div class="lower">
+            <div style="transform: translateY(0%)">
+              <p>profits</p>
+              <p>risks</p>
+              <p>empire</p>
+            </div>
+          </div>
+          <!-- <div class="intro-line">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div> -->
         </div>
-        <div class="wiggle btn-wiggle btn-center">
-          <a href="#"><i class="fa fa-angle-down"></i></a> 
+        <div class="purchase">
+          <h2><span>join</span> the winning team</h2>
+          <a id="purchaseButton">
+            <span class="shine"></span>
+            Learn More
+          </a>
         </div>
-      </section>
+        <div class="coverImage">
+          <img class="delivery float" src="./src/img/robber_run.png" alt="cover" />
+          <img class="visual float" src="./src/img/prize_pick.png" alt="cover" />
+          <img class="setting float" src="./src/img/setting.png" alt="cover" />
+          <img class="gift float" src="./src/img/fd_logo.png" alt="cover" />
+          <!-- <img class="bluecredit" src="./src/img/bluecredit.svg" alt="cover" /> -->
+          <!-- <img class="sneaker" src="./src/img/sneaker.svg" alt="cover" /> -->
+          <img class="starOne element" src="./src/img/draft_kinglogo.png" alt="cover" />
+          <img
+            class="store element"
+            src="./src/img/bell.svg"
+            alt="cover"
+          />
+          <img class="starThree element" src="./src/img/star.svg" alt="cover" />
+          <img class="starTwo element" src="./src/img/star.svg" alt="cover" />
+          <img
+            class="cone element"
+            src="./src/img/beveled-cone.png"
+            alt="cover"
+          />
+          <img class="box element" src="./src/img/setting.png" alt="cover" />
+          <img
+            class="cover element"
+            src="./src/img/backgroundCover.svg"
+            alt="cover"
+          />
+        </div>
+      </div>
     </main>
   </body>
 </html>
