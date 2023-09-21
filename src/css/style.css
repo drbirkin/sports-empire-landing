@@ -424,6 +424,10 @@ li.dropdown-list-item {
   z-index: 9999;
 }
 
+.loader img {
+  width: 4.5em;
+}
+
 .loader .loader--inner {
   width: 1vw;
   height: 1vw;
@@ -1589,7 +1593,7 @@ footer .infos .details a {
     flex-direction: column;
   }
   .loader img {
-    width: 1rem;
+    width: 7.3rem;
   }
   .purchase h2 {
     display: none;
