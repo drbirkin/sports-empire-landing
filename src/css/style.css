@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Lily+Script+One&family=Poppins:wght@200;500;700;800&family=Roboto:wght@500&display=swap');
 
-/* :root {
+:root {
   --bg-color: #222429;
   --primary-bg-color: #fefeffab;
   --primary-color: #2c62f6;
@@ -19,7 +19,7 @@
   --floating-icon-size: 26;
   --floating-icon-top: 0;
   --floating-icon-left: 0;
-} */
+}
 
 body {
   /* height: 100vh; */
@@ -1834,8 +1834,14 @@ footer .infos .details a {
     white-space: pre-wrap;
   }
 
+  .landing-pic .mask {
+    display: none;
+    animation: none;
+  }
+
   .intro-landing .btn-center {
     background-color: rgba(255, 255, 255, 0.461);
+    bottom: 5%;
   }
 
   .main-button {
