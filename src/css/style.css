@@ -71,7 +71,7 @@ main {
 }
 
 .navbar ul a.logo img {
-  width: 3rem;
+  width: 7.3rem;
   padding-left: 2.5rem;
 }
 
@@ -575,7 +575,7 @@ img {
   text-transform: uppercase;
   border-radius: 0px 20px;
   /* background-color: #ffd84a; */
-  background-image: linear-gradient(#ffe854, #ffd84a);
+  background-image: linear-gradient(#ff5454, #ff4a4a);
   position: relative;
 }
 .intro-text div {
@@ -843,7 +843,8 @@ img {
 }
 .intro-section .coverImage .starOne {
   right: 18rem;
-  bottom: 18rem;
+  bottom: 10em;
+  width: 25em;
 }
 .intro-section .coverImage .starTwo {
   left: 45rem;
@@ -1268,13 +1269,13 @@ footer .infos .details a {
     height: 14rem;
   }
   .intro-section .coverImage .delivery {
-    width: 28rem;
+    width: 38rem;
     z-index: 2;
     filter: brightness(1.25);
     -webkit-filter: brightness(1.25);
     -ms-filter: brightness(1.25);
     bottom: 0;
-    right: 50rem;
+    right: 45rem;
   }
 
   .purchase h2 {
@@ -1288,7 +1289,7 @@ footer .infos .details a {
   .intro-section .coverImage .visual {
     width: 25rem;
     z-index: -1;
-    bottom: 5rem;
+    bottom: -9rem;
     right: 65rem;
   }
 
