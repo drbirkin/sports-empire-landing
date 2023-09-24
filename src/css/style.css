@@ -1456,6 +1456,10 @@ footer .infos .details a {
   right: 0;
   bottom: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   padding: 20px;
   position: relative;
@@ -1485,6 +1489,7 @@ footer .infos .details a {
   font-size: 1em;
   line-height: 1.4;
   margin: 1em 0.5em;
+  padding: 0 2em;
 }
 .testimonial4_slide h4 {
   margin-top: 1em;
@@ -1917,7 +1922,7 @@ footer .infos .details a {
     top: -6em;
   }
   .about-us {
-    height: 37rem;
+    height: 40rem;
     padding-top: 4em;
     align-items: flex-end;
     margin-top: 8rem;
