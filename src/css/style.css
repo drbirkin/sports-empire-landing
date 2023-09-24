@@ -1915,9 +1915,10 @@ footer .infos .details a {
     top: -6em;
   }
   .about-us {
-    height: 35rem;
+    height: 37rem;
     padding-top: 4em;
     align-items: flex-end;
+    margin-top: 8rem;
   }
   .about-us p {
     width: 45rem;
