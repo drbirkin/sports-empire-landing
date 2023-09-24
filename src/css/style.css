@@ -1883,6 +1883,7 @@ footer .infos .details a {
     align-items: center;
     margin-top: 0rem;
     margin-bottom: 18rem;
+    z-index: 5;
   }
   /* .purchase a .shine {
     display: none;
