@@ -310,6 +310,7 @@ li.dropdown-list-item {
   width: 100%;
   z-index: 0;
   top: 0rem;
+  right: 0rem;
   margin: 0;
   padding-left: 0;
   background-color: rgba(0, 0, 0, 0.96);
@@ -683,6 +684,7 @@ img {
   justify-content: center;
   width: 50%;
   margin-bottom: 8rem;
+  color: white;
 }
 
 .purchase h2 {
@@ -930,9 +932,10 @@ img {
   align-items: center;
   height: 25rem;
   /* background-image: linear-gradient(60deg, #ffe854, #ffc801); */
-  background-color: #ffd84a;
+  background-color: #ff5454;
   position: relative;
   margin-top: 5rem;
+  padding: 1.2em;
   border-radius: 2rem;
 }
 
@@ -978,8 +981,9 @@ img {
   border-radius: 2rem;
   width: 20rem;
   min-height: 28rem;
+  background-image: linear-gradient(380deg, #ffa5a5, #ff4a4a, #ff4a4a);
   /* background-color: rgb(255, 255, 255); */
-  background-color: #8b9cdf8c;
+  /* background-color: #ff5454d6; */
   /* backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px); */
   filter: drop-shadow(0 0 0.75rem rgba(27, 24, 24, 0.17));
@@ -994,14 +998,16 @@ img {
 
 .services div:nth-child(2n) {
   top: 10rem;
-  background-color: #383841;
+  /* background-color: #383841; */
+  background-image: linear-gradient(380deg, #474343, #3a3131, #292222);
 }
 .services div:nth-child(2n + 1) {
   top: 0rem;
 }
 
 .services div:hover {
-  background-color: #ffd84a;
+  background-image: linear-gradient(380deg, #dec63d, #dabb31, #ffe14c);
+  /* background-color: #ffd84a; */
   transition: all 1s ease;
   /* background-color: #8b9cdf8c; */
 }
@@ -1144,6 +1150,11 @@ img {
   width: 25rem;
 }
 
+/* review */
+.review-section {
+  margin-top: 33em;
+  padding: 0 10em;
+}
 
 /* faq */
 
@@ -1159,7 +1170,7 @@ img {
 .faq-details {
   margin-top: 5rem;
   /* background-color: #ffd84a; */
-  background-image: linear-gradient(180deg, #fff3a5, #ffd84a, #ffd84a);
+  background-image: linear-gradient(180deg, #ffa5a5, #ff4a4a, #ff4a4a);
   padding: 0 15rem;
   padding-top: 10rem;
   padding-bottom: 9rem;
@@ -1187,7 +1198,7 @@ img {
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin: 0.8em;
 }
 
 .faq-details div {
@@ -1265,6 +1276,235 @@ footer .infos .details a {
   margin: 0.5rem 0.5rem;
   pointer-events: initial;
 }
+
+/* CAROUSEL STARTS */
+.carousel {
+  margin-top: 4em;
+  min-height: 25em;
+  background-image: linear-gradient(#ff4935, #ff4a4ae7, #f601018a, #ff4a4a00);
+}
+.testimonial:after {
+  position: absolute;
+  top: -0 !important;
+  left: 0;
+  content: ' ';
+  background-size: 100% 100px;
+  width: 100%;
+  height: 100px;
+  float: left;
+  z-index: 99;
+}
+
+.testimonial {
+  min-height: 375px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+}
+#testimonial4 .carousel-inner:hover {
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+#testimonial4 .carousel-inner:active {
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+#testimonial4 .carousel-inner .item {
+  overflow: hidden;
+}
+
+.testimonial4_indicators .carousel-indicators {
+  left: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0;
+  height: 20px;
+  bottom: 15px;
+  padding: 0 5px;
+  cursor: e-resize;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+}
+.testimonial4_indicators .carousel-indicators li {
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  border: none;
+  text-indent: 0;
+  margin: 2px 3px;
+  cursor: pointer;
+  display: inline-block;
+  background: #ffffff;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial4_indicators .carousel-indicators .active {
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  border: none;
+  margin: 2px 3px;
+  background-color: #9dd3af;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar {
+  height: 3px;
+}
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.testimonial4_control_button .carousel-control {
+  top: 175px;
+  opacity: 1;
+  width: 40px;
+  bottom: auto;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 38px;
+  text-shadow: none;
+  text-align: center;
+  position: absolute;
+  background: transparent;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.6s cubic-bezier(0.3, 1, 0, 1);
+  transition: all 0.6s cubic-bezier(0.3, 1, 0, 1);
+}
+.testimonial4_control_button .carousel-control.left {
+  left: 7%;
+  top: 50%;
+  right: auto;
+}
+.testimonial4_control_button .carousel-control.right {
+  right: 7%;
+  top: 50%;
+  left: auto;
+}
+.testimonial4_control_button .carousel-control.left:hover,
+.testimonial4_control_button .carousel-control.right:hover {
+  color: #000;
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+.testimonial4_header {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 550px;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  position: relative;
+}
+.testimonial4_header h4 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.rating {
+  background-color: rgb(72, 68, 68);
+  position: absolute;
+  right: 7em;
+  top: 2em;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.rating i {
+  color: #fada22;
+  font-size: 0.8em;
+}
+
+.carousel-control-prev span {
+  padding: 0.1em;
+  border-radius: 0.2em;
+  /* background-color: #38384194; */
+}
+.carousel-control-next span {
+  padding: 0.1em;
+  border-radius: 0.2em;
+  /* background-color: #38384194; */
+}
+.testimonial4_slide {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.testimonial4_slide img {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 5em;
+  height: 5em;
+  margin: auto;
+  display: block;
+  color: #f2f2f2;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 0 0 0.78em rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 0 0.78em rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 0 0.78em rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 0 0.78em rgba(0, 0, 0, 0.23);
+}
+.testimonial4_slide p {
+  color: #383841;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 1em 0.5em;
+}
+.testimonial4_slide h4 {
+  margin-top: 1em;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+.testimonial4_slide > div {
+  position: relative;
+  width: 23em;
+  margin: auto;
+}
+.testimonial .carousel {
+  padding-bottom: 50px;
+}
+.testimonial .carousel-control-next-icon,
+.testimonial .carousel-control-prev-icon {
+  width: 35px;
+  height: 35px;
+}
+/* ------testimonial  close-------*/
 
 /* ! lg-desktop */
 @media only screen and (max-width: 2000px) {
@@ -1467,9 +1707,9 @@ footer .infos .details a {
     left: 25rem;
   }
   .about-services .box {
-    width: 15rem;
+    width: 20rem;
     top: 15rem;
-    right: 30rem;
+    right: 16rem;
   }
   .intro-section .coverImage .store {
     width: 25rem;
@@ -1495,7 +1735,7 @@ footer .infos .details a {
     font-size: 1rem;
   }
   .services div img {
-    width: 4rem;
+    width: 5rem;
   }
   .services div svg {
     width: 4rem;
@@ -1660,10 +1900,9 @@ footer .infos .details a {
   }
 
   .intro-section .coverImage .starOne {
-    
-      bottom: -20rem;
-      right: -4em;
-      width: 22em;
+    bottom: -20rem;
+    right: -4em;
+    width: 22em;
   }
   .section:not(.intro-section, .faq-section) {
     padding: 3rem;
@@ -1672,11 +1911,12 @@ footer .infos .details a {
     height: 100%;
   }
   .about-us img {
-    height: 20rem;
-    top: 0rem;
+    height: 30rem;
+    top: -6em;
   }
   .about-us {
     height: 35rem;
+    padding-top: 4em;
     align-items: flex-end;
   }
   .about-us p {
@@ -1725,6 +1965,10 @@ footer .infos .details a {
   }
   .partners-section .partners-details .locked p {
     margin: 0;
+  }
+  .review-section {
+    margin-top: 0;
+    padding: 0;
   }
   .faq-details {
     margin-top: 5rem;
