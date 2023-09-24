@@ -1495,6 +1495,8 @@ footer .infos .details a {
   position: relative;
   width: 23em;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .testimonial .carousel {
   padding-bottom: 50px;
@@ -1905,7 +1907,7 @@ footer .infos .details a {
     width: 22em;
   }
   .section:not(.intro-section, .faq-section) {
-    padding: 3rem;
+    padding: 2rem;
   }
   .about-services {
     height: 100%;
