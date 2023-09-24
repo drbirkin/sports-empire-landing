@@ -1540,6 +1540,7 @@ footer .infos .details a {
   }
 
   .purchase a {
+    margin-top: 4em;
     margin-left: 10rem;
   }
 
@@ -1853,6 +1854,10 @@ footer .infos .details a {
   }
   .purchase h2 {
     width: 100%;
+  }
+
+  .purchase a {
+    margin-top: 0 !important;
   }
   .intro-text {
     text-align: center;
