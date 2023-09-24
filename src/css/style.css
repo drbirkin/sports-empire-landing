@@ -1254,13 +1254,13 @@ footer a {
 }
 
 footer img {
-  height: 2rem;
+  height: 1.5rem;
 }
 /* footer a:last-child {
   margin-left: auto;
 } */
 footer a:last-child img {
-  height: 2.8rem;
+  height: 1.8rem;
 }
 footer .infos {
   text-align: center;
