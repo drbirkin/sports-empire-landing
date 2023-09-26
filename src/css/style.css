@@ -1686,7 +1686,7 @@ footer .infos .details a {
 
 @media only screen and (max-width: 1550px) {
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .intro-section .intro-text .upper {
     height: 5rem;
@@ -1697,7 +1697,7 @@ footer .infos .details a {
     font-size: 10rem;
   }
   .intro-section .coverImage .delivery {
-    width: 20rem;
+    width: 30rem;
     bottom: -10px;
     right: 40rem;
   }
@@ -1731,7 +1731,7 @@ footer .infos .details a {
     right: 50rem;
   }
   .about-us img {
-    height: 35rem;
+    height: 32rem;
     top: -10rem;
   }
   .about-us p {
@@ -1739,11 +1739,15 @@ footer .infos .details a {
   }
 
   .services div {
-    padding: 1.5rem;
+    padding: .2rem;
   }
 
   .services div p:nth-child(2) {
     font-size: 1.1rem;
+  }
+  .services div .service-cover {
+    background-image: none;
+    background-color: #926e6e7e;
   }
   .services div p {
     font-size: 1rem;
